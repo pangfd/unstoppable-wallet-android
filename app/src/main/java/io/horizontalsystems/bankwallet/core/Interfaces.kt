@@ -56,6 +56,7 @@ interface ILocalStorage {
     var isLockTimeEnabled: Boolean
     var encryptedSampleText: String?
     var bitcoinDerivation: AccountType.Derivation?
+    var torEnabled: Boolean
 
     fun clear()
 }
