@@ -445,7 +445,7 @@ interface IBlockedChartCoins {
 
 interface INetManager{
     fun start()
-    fun stop()
+    fun stop(): Single<Boolean>
 }
 
 enum class FeeRatePriority(val value: Int) {
